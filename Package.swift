@@ -9,15 +9,15 @@ import PackageDescription
 
 let package = Package(
     name: "BehaviorGuardSDK",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(name: "BehaviorGuardSDK", targets: ["BehaviorGuardSDK"]),
     ],
     targets: [
         .binaryTarget(
-            name: "BehaviorGuardSDK",   // 3.0.0
-            url: "https://api.sentinelden.com/spm/behaviorguard_sdk/3.0.0/BehaviorGuardSDK.xcframework.zip",
-            checksum: "1964543096de452da6bbf9124838032941d1207cd40800debd97e17c59e45d87"
+            name: "BehaviorGuardSDK",   // 4.0.0
+            url: "https://api.sentinelden.com/spm/behaviorguard_sdk/4.0.0/BehaviorGuardSDK.xcframework.zip",
+            checksum: "2ca7fab13b73166e21e5230374f17d2bcfd236e6f666d5fa765372de487702ca"
         ),
     ]
 )
