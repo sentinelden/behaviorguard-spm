@@ -15,9 +15,9 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "BehaviorGuardSDK",   // 2.4.0
-            url: "https://api.sentinelden.com/spm/behaviorguard_sdk/2.4.0/BehaviorGuardSDK.xcframework.zip",
-            checksum: "aa8758fcc61ec65af3766087b2d939aac3fc05b11fa54b89c8962cc90b82a57b"
+            name: "BehaviorGuardSDK",   // 3.0.0
+            url: "https://api.sentinelden.com/spm/behaviorguard_sdk/3.0.0/BehaviorGuardSDK.xcframework.zip",
+            checksum: "1964543096de452da6bbf9124838032941d1207cd40800debd97e17c59e45d87"
         ),
     ]
 )
